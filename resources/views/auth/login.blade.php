@@ -43,9 +43,16 @@
                 </div>
             </div>
         </div>
-        <a class="btn btn-link" href="{{ route('password.request') }}">
-            Forgot Your Password?
-        </a>
+        <div class="peers ai-c jc-sb fxw-nw">
+            <div class="peer">
+                <a class="btn btn-link" href="{{ route('password.request') }}">
+                    Forgot Your Password?
+                </a>
+            </div>
+            <div class="peer">
+                <a href="/register" class="btn btn-link">Create new account</a>
+            </div>
+        </div>
     </form>
 
 @endsection

@@ -48,7 +48,10 @@
         <div class="form-group">
             <div class="peers ai-c jc-sb fxw-nw">
                 <div class="peer">
-                    <button class="btn btn-primary">Login</button>
+                    <a href="/login">I have an account</a>
+                </div>
+                <div class="peer">
+                    <button class="btn btn-primary">Register</button>
                 </div>
             </div>
         </div>
