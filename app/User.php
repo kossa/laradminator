@@ -15,7 +15,7 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password',
+        'name', 'email', 'password', 'avatar', 'bio', 'role'
     ];
 
     /**
@@ -26,4 +26,67 @@ class User extends Authenticatable
     protected $hidden = [
         'password', 'remember_token',
     ];
+
+    /*
+    |------------------------------------------------------------------------------------
+    | Validations
+    |------------------------------------------------------------------------------------
+    */
+    public static function rules($update = false, $id = null)
+    {
+        $commun = [
+            'email'    => "required|email|unique:users,email,$id",
+            'password' => 'nullable|confirmed',
+        ];
+
+        if ($update) {
+            return $commun;
+        }
+
+        return array_merge($commun, [
+            'email'    => 'required|email|max:255|unique:users',
+            'password' => 'required|confirmed|min:6',
+        ]);
+    }
+
+    /*
+    |------------------------------------------------------------------------------------
+    | Attributes
+    |------------------------------------------------------------------------------------
+    */
+    public function setPasswordAttribute($value='')
+    {
+        $this->attributes['password'] = bcrypt($value);
+    }
+    
+    public function getAvatarAttribute($value)
+    {
+        if (!$value) {
+            return 'http://placehold.it/160x160';
+        }
+    
+        return config('variables.avatar.public').$value;
+    }
+    public function setAvatarAttribute($photo)
+    {
+        $this->attributes['avatar'] = move_file($photo, 'avatar');
+    }
+
+    /*
+    |------------------------------------------------------------------------------------
+    | Boot
+    |------------------------------------------------------------------------------------
+    */
+    public static function boot()
+    {
+        parent::boot();
+        static::updating(function($user)
+        {
+            $original = $user->getOriginal();
+            
+            if (\Hash::check('', $user->password)) {
+                $user->attributes['password'] = $original['password'];
+            }
+        });
+    }
 }

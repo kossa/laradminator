@@ -14,6 +14,7 @@ if (! function_exists('move_file')) {
             return $full_name;
         }
 
+
         // Create the Image
         $image           = Image::make($file->getRealPath());
 
@@ -31,6 +32,8 @@ if (! function_exists('move_file')) {
             $image->insert($watermark, 'center');
         }
 
-        return $image->save($destinationPath . '/' . $full_name)->basename;
+        Storage::put($destinationPath . '/' . $full_name, (string) $image->encode());
+
+        return $full_name;
     }
 }

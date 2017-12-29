@@ -11,6 +11,8 @@ return [
 	"manage"       => "manage",
 	"edit_title"   => "Edit Item",
 	"delete_title" => "Delete Item",
+	"add_new_item" => "new",
+	"update_item" => "update",
 
 	// View buttons
 	"add_button"    => "Add",
