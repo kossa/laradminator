@@ -492,7 +492,7 @@
                             <!-- Chat Conversation -->
                             <div class="peers fxw-nw">
                                 <div class="peer mR-20">
-                                    <img class="w-2r bdrs-50p" src="https://randomuser.me/api/portraits/men/11.jpg" alt="">
+                                    <img class="w-2r bdrs-50p" src="/images/11.jpg" alt="">
                                 </div>
                                 <div class="peer peer-greed">
                                     <div class="layers ai-fs gapY-5">
@@ -533,7 +533,7 @@
                             <!-- Chat Conversation -->
                             <div class="peers fxw-nw ai-fe">
                                 <div class="peer ord-1 mL-20">
-                                    <img class="w-2r bdrs-50p" src="https://randomuser.me/api/portraits/men/12.jpg" alt="">
+                                    <img class="w-2r bdrs-50p" src="/images/12.jpg" alt="">
                                 </div>
                                 <div class="peer peer-greed ord-0">
                                     <div class="layers ai-fe gapY-10">
