@@ -21,7 +21,7 @@ class users extends Seeder
         for($i = 1; $i <= 1 ; $i++) {
             array_push($data, [
                 'name' => 'hadji kouceyla',
-                'email' => 'hadjikouceyla@gmail.com',
+                'email' => 'test@example.com',
                 'password' => bcrypt('123456'),
                 'avatar'   => 'user2-160x160.jpg',
                 'role'     => 10,
