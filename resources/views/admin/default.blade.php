@@ -15,7 +15,7 @@
 </head>
 <body class="app">
 
-    {{-- @include('admin.partials.spinner') --}}
+    @include('admin.partials.spinner')
 
     <div>
       <!-- #Left Sidebar ==================== -->
