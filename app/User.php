@@ -37,6 +37,7 @@ class User extends Authenticatable
         $commun = [
             'email'    => "required|email|unique:users,email,$id",
             'password' => 'nullable|confirmed',
+            'avatar' => 'image',
         ];
 
         if ($update) {
