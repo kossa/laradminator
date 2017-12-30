@@ -59,7 +59,6 @@ Password: 123456
 ![alt text](https://content.screencast.com/users/kouycela/folders/Jing/media/c2cf99d2-5a82-40d8-a18f-5f8dfaaafaa6/00000596.png "Logo Title Text 1")
 
 
-#FAQ
 
 #### Create new CRUD
 Creating CRUD in your application is the job you do most. Let's create Post CRUD:
