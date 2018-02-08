@@ -12,7 +12,7 @@
     "devDependencies": {
         "axios": "^0.17",
         "babel-polyfill": "^6.26.0",
-        "bootstrap": "4.0.0-beta.2",
+        "bootstrap": "^4.0.0",
         "bootstrap-datepicker": "^1.7.1",
         "browser-sync": "^2.22.0",
         "browser-sync-webpack-plugin": "^1.2.0",
@@ -31,7 +31,7 @@
         "masonry-layout": "^4.2.0",
         "moment": "^2.19.1",
         "perfect-scrollbar": "^1.1.0",
-        "popper.js": "^1.12.6",
+        "popper.js": "^1.12",
         "skycons": "^1.0.0"
     },
     "dependencies": {
