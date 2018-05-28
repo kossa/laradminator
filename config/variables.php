@@ -21,8 +21,8 @@ return [
         'public' => '/storage/avatar/',
         'folder' => 'avatar',
         
-        'width'  => 32,
-        'height' => 32,
+        'width'  => 400,
+        'height' => 400,
     ],
 
     /*
