@@ -13,11 +13,11 @@
   <!-- Styles -->
   <link href="{{ mix('/css/app.css') }}" rel="stylesheet">
 </head>
-<body class="app">
+<body>
 
     @include('admin.partials.spinner')
 
-    <div>
+    <div id="app">
       <!-- #Left Sidebar ==================== -->
       @include('admin.partials.sidebar')
 
