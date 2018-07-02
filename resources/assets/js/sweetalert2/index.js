@@ -16,7 +16,6 @@ export default (function () {
             cancelButtonClass: 'btn btn-primary',
             confirmButtonText: 'Yeah, sure!', // Oui, sûr
             cancelButtonText: 'Cancel', // Annuler
-            closeOnConfirm: false
         }).then(res => {
             if (res.value) {
                 _this.closest("form").submit();
