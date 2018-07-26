@@ -9,7 +9,7 @@
 		
 				{!! Form::myInput('password', 'password_confirmation', 'Password again') !!}
 		
-				{!! Form::mySelect('role', 'Role', config('variables.role')) !!}
+				{!! Form::mySelect('role', 'Role', config('variables.role'), null, ['class' => 'form-control select2']) !!}
 		
 				{!! Form::myFile('avatar', 'Avatar') !!}
 		

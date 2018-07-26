@@ -35,5 +35,8 @@
         "skycons": "^1.0.0",
         "sweetalert2": "^7.24.4",
         "vue": "^2.5.7"
+    },
+    "dependencies": {
+        "select2": "^4.0.6-rc.1"
     }
 }
