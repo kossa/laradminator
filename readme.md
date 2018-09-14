@@ -12,7 +12,7 @@ sudo chmod 777 storage/ -R         # Chmod Storage
 cp .env.example .env               # Update database credentials configuration
 php artisan key:generate           # Generate new keys for Laravel
 php artisan migrate:fresh --seed # Run migration and seed users and categories for testing
-yarn install                       # or npm i to Install node dependencies
+yarn install                       # or npm i to Install node dependencies(>= node 9.x)
 npm run production                 # To compile assets for prod
 ```
 
@@ -35,7 +35,7 @@ Password: 123456
 ## Included Packages:
 #### Laravel (php):
 
-* [Laravel Framework](https://github.com/laravel/laravel/) (5.6.*)
+* [Laravel Framework](https://github.com/laravel/laravel/) (5.7.*)
 * [Forms & HTML](https://github.com/laravelcollective/html) : for forms
 * [Laravel Debugbar](https://github.com/barryvdh/laravel-debugbar) : for debugging
 * [Intervention Image](https://github.com/intervention/image) : image handling and manipulation
@@ -51,8 +51,8 @@ Password: 123456
 - Using [Laravel Mix](http://laravel.com/docs/master/mix), all CSS and JS are in minified to one file each.
 - Laradminator leverages browser caching, using `.htaccess` file from [html5-boilerplate](https://github.com/h5bp/html5-boilerplate)
 - GZip compression is activated by default(APP_DEBUG=false => only onfile for js, and one file for css).  
-  - `app.css`: 106 KB with gzip (949 Kb without)  
-  - `app.js` : 464 KB with gzip (1.52 Mb without)
+  - `app.css`: 107 KB with gzip (943 Kb without)  
+  - `app.js` : 427 KB with gzip (1.4 Mb without)
 
 *__Note:__ If you're using Nginx check: [server-configs-nginx](https://github.com/h5bp/server-configs-nginx)*
 
