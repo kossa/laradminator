@@ -25,7 +25,7 @@ Form::macro('myFile', function ($name, $label="", $options=[]) {
     return "
         <div class='form-group'>
             ". $label .
-              Form::file($name, array_merge(["class" => "form-control"], $options)). "
+              Form::file($name, array_merge(["class" => "form-control-file"], $options)). "
         </div>
     ";
 });
