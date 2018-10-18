@@ -40,12 +40,14 @@ Form::macro('myTextArea', function ($name, $label="", $options=[], $default = nu
     ";
 });
 
-Form::macro('myCheckbox', function ($name, $label="", $value='', $checked='', $options=[]) {
-    // $label = ($label =='') ? '' : html_entity_decode(Form::label($name, $label));
+Form::macro('myCheckbox', function ($name, $label="", $value='', $checked=false, $options=[]) {
     return "
-        <div class='checkbox'>
-            <label>" .
-                Form::checkbox($name, $value, $checked, $options) . $label . "
+        <div class='checkbox checkbox-circle checkbox-info peers ai-c mB-15'>
+            ".
+                Form::checkbox($name, $value, $checked, ['id' => $name] + $options)
+            ."
+            <label for='$name' class='peers peer-greed js-sb ai-c'>
+                <span class='peer peer-greed'>$label</span>
             </label>
         </div>
     ";
