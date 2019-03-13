@@ -1,11 +1,11 @@
 import * as $ from 'jquery';
-import swal from 'sweetalert2';
+import Swal from 'sweetalert2';
 
 export default (function () {
     $(document).on('click', "form.delete button", function(e) {
         var _this = $(this);
         e.preventDefault();
-        swal({
+        Swal.fire({
             title: 'Are you sure?', // Opération Dangereuse
             text: 'Are you sure to continue ?', // Êtes-vous sûr de continuer ?
             type: 'error',
