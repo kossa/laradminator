@@ -73,7 +73,7 @@ Password: 123456
 
   
 
-*  [Laravel Framework](https://github.com/laravel/laravel/) (5.7.*)
+*  [Laravel Framework](https://github.com/laravel/laravel/) (5.8.*)
 
 *  [Forms & HTML](https://github.com/laravelcollective/html) : for forms
 
@@ -125,7 +125,7 @@ If you want to update the CSS, you can put them directly in [`resources/sass/app
 ](https://github.com/kossa/laradminator/blob/master/resources/sass/app.scss#L5)
 
 > VERY IMPORTANT: Any change you make on resources you have to run : `npm run dev` or  `npm run prod`.
-> If you have a lot of changes it's much better to run: `npm run watch` to watch any changes on your files, take a look on [browersync](https://laravel.com/docs/5.7/mix#browsersync-reloading)
+> If you have a lot of changes it's much better to run: `npm run watch` to watch any changes on your files, take a look on [browersync](https://laravel.com/docs/5.8/mix#browsersync-reloading)
 
 
 #### Create new CRUD
