@@ -66,7 +66,7 @@ import './skycons';
 import './vectorMaps';
 import './chat';
 import './datatable';
-import './datepicker';
+import './datetimepicker';
 import './email';
 import './fullcalendar';
 import './googleMaps';

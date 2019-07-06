@@ -41,6 +41,7 @@
         "vue-template-compiler": "^2.6.10"
     },
     "dependencies": {
+        "jquery-datetimepicker": "^2.5.21",
         "select2": "^4.0.7"
     }
 }
