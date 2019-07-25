@@ -10,7 +10,7 @@
 
         <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
             <label for="email" class="text-normal text-dark">E-Mail Address</label>
-            <input id="email" type="email" class="form-control" name="email" value="{{ $email ??? old('email') }}" required autofocus>
+            <input id="email" type="email" class="form-control" name="email" value="{{ $email ?? old('email') }}" required autofocus>
 
             @if ($errors->has('email'))
                 <span class="form-text text-danger">
