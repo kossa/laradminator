@@ -1,7 +1,21 @@
 @extends('layouts.app')
 
 @section('content')
-
+                    @auth                     
+                          <h4 class="fw-300 c-grey-900 mB-40">Logout</h4>
+                          <div style="display:flex">
+                          <a href="/admin" class="d-b td-n pY-5 bgcH-grey-100 c-grey-700">
+                              <div class="peer">                                
+                                    <button class="btn btn-primary mr-2">Dashboard</button>
+                                </div>
+                          </a>
+                          <a href="/logout" class="d-b td-n pY-5 bgcH-grey-100 c-grey-700">
+                           <div class="peer">                                
+                                <button class="btn btn-primary ">Logout</button>
+                            </div>
+                            </a>
+                        </div>
+                     @else
     <h4 class="fw-300 c-grey-900 mB-40">Login</h4>
     <form class="form-horizontal" method="POST" action="{{ route('login') }}">
         {{ csrf_field() }}
@@ -54,5 +68,5 @@
             </div>
         </div>
     </form>
-
+@endauth 
 @endsection
