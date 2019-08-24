@@ -1,0 +1,61 @@
+// @import "~bootstrap-v4-rtl/scss/bootstrap-rtl.scss";
+@import url('https://fonts.googleapis.com/css?family=Cairo&display=swap');
+
+
+html, body{
+    direction: rtl;
+    text-align: right;
+    font-family: 'Cairo', sans-serif;
+    letter-spacing: 0;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Cairo', sans-serif;
+    letter-spacing: 0;
+}
+
+.page-container{
+    padding-left: 0;
+    padding-right: 280px;
+}
+
+.header .header-container .nav-left{
+    float: right;
+}
+.header .header-container .nav-left > li, .header .header-container .nav-right > li{
+    float: right;
+}
+.header .header-container .nav-right{
+    float: left;
+}
+.navbar{
+    padding: 0;
+}
+.sidebar-menu{
+    border-left: 1px solid rgba(0, 0, 0, 0.0625);
+    border-right: none;
+}
+.header .header-container .nav-right .dropdown-menu{
+    right: auto;
+    left: 0;
+}
+.dataTables_wrapper .dataTables_filter input{
+    margin-left: 0;
+    margin-right: 15px;
+}
+.dataTables_wrapper .dataTables_length{
+    float: right;
+}
+.dataTables_wrapper .dataTables_filter{
+    float: left;
+}
+.sidebar-logo{
+    border-left: 1px solid rgba(0, 0, 0, 0.0625);
+    border-right: none;
+}
+.is-collapsed .page-container{
+    padding-right: 70px;
+    padding-left: 0;
+}
+.sidebar-menu > li > a .icon-holder{
+    margin-right: 0;
+}

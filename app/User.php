@@ -45,17 +45,17 @@ class User extends Authenticatable
     */
     public static function rules($update = false, $id = null)
     {
-        $commun = [
+        $common = [
             'email'    => "required|email|unique:users,email,$id",
             'password' => 'nullable|confirmed',
             'avatar' => 'image',
         ];
 
         if ($update) {
-            return $commun;
+            return $common;
         }
 
-        return array_merge($commun, [
+        return array_merge($common, [
             'email'    => 'required|email|max:255|unique:users',
             'password' => 'required|confirmed|min:6',
         ]);
