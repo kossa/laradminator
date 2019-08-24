@@ -12,7 +12,7 @@
 
     <!-- Styles -->
 	<link href="{{ mix('/css/app.css') }}" rel="stylesheet"> 
-	<link href="{{ mix('/css/rtl.css') }}" rel="stylesheet"> 
+	{{-- <link href="{{ mix('/css/rtl.css') }}" rel="stylesheet">  --}}
 	
 	@yield('css')
 
