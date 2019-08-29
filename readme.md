@@ -203,10 +203,14 @@ Password: 123456
 
 ![alt text](https://content.screencast.com/users/kouycela/folders/Jing/media/c2cf99d2-5a82-40d8-a18f-5f8dfaaafaa6/00000596.png  "Logo Title Text 1")
 
+### HTTPS Support
+Support HTTPS, but disabled by default. To enable it, set HTTPS to true on your `.env` file.
+
 ### RTL support
 Uncomment [this](https://github.com/kossa/laradminator/blob/master/resources/views/admin/default.blade.php#L15) line and you have the RTL version
 
   ![enter image description here](https://content.screencast.com/users/kouycela/folders/Jing/media/a95fbdc6-6131-4fb2-8fe4-f16fff2c34b8/00001805.png)
+  
 
 #### How can I use custom CSS and JS ?
 
