@@ -20,49 +20,16 @@ All you need is to run these commands:
   
 
 ```bash
-
-  
-
 git clone https://github.com/kossa/laradminator.git
-
-  
-
 cd laradminator
-
-  
-
 composer install # Install backend dependencies
-
-  
-
 sudo chmod 777 storage/ -R # Chmod Storage
-
-  
-
 php artisan storage:link # Enable link to storage
-
-  
-
 cp .env.example .env # Update database credentials configuration
-
-  
-
 php artisan key:generate # Generate new keys for Laravel
-
-  
-
 php artisan migrate:fresh --seed # Run migration and seed users and categories for testing
-
-  
-
 yarn install # or npm i to Install node dependencies(>= node 9.x)
-
-  
-
 npm run production # To compile assets for prod
-
-  
-
 ```
 
   
@@ -131,7 +98,7 @@ Password: 123456
 
   
 
-*  [Laravel Framework](https://github.com/laravel/laravel/) (5.8.*)
+*  [Laravel Framework](https://github.com/laravel/laravel/) (6.0.*)
 
   
 
@@ -222,7 +189,7 @@ If you want to update the CSS, you can put them directly in [`resources/sass/app
 
 > VERY IMPORTANT: Any change you make on resources you have to run : `npm run dev` or `npm run prod`.
 
-> If you have a lot of changes it's much better to run: `npm run watch` to watch any changes on your files, take a look on [browersync](https://laravel.com/docs/5.8/mix#browsersync-reloading)
+> If you have a lot of changes it's much better to run: `npm run watch` to watch any changes on your files, take a look on [browersync](https://laravel.com/docs/master/mix#browsersync-reloading)
 
   
   
