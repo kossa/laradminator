@@ -7,7 +7,7 @@ if (! function_exists('move_file')) {
         $destinationPath = config('variables.'.$type.'.folder');
         $width           = config('variables.' . $type . '.width');
         $height          = config('variables.' . $type . '.height');
-        $full_name       = str_random(16) . '.' . $file->getClientOriginalExtension();
+        $full_name       = Str::random(16) . '.' . $file->getClientOriginalExtension();
         
         if ($width == null && $height == null) { // Just move the file
             $file->storeAs($destinationPath, $full_name);
