@@ -75,7 +75,7 @@ Password: 123456
 
 *__Note:__ If you're using Nginx check: [server-configs-nginx](https://github.com/h5bp/server-configs-nginx)*
 
-![alt text](https://content.screencast.com/users/kouycela/folders/Jing/media/c2cf99d2-5a82-40d8-a18f-5f8dfaaafaa6/00000596.png  "Logo Title Text 1")
+![alt text](https://content.screencast.com/users/kouycela/folders/Jing/media/0d4f930b-9605-4c9e-9847-e9278235481c/00001832.png  "Logo Title Text 1")
 
 ### RTL support
 
