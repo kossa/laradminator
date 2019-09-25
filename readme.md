@@ -117,3 +117,8 @@ you can check full example in [User.php](https://github.com/kossa/laradminator/b
 #### Do you have question ?
 
 Not hesitate, [open](https://github.com/kossa/laradminator/issues/new) new issue ;)
+
+
+## License
+
+Laradminator is licensed under The MIT License (MIT). Which means that you can use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the final products.
