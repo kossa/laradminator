@@ -75,13 +75,14 @@ Password: 123456
 
 *__Note:__ If you're using Nginx check: [server-configs-nginx](https://github.com/h5bp/server-configs-nginx)*
 
-![alt text](https://content.screencast.com/users/kouycela/folders/Jing/media/0d4f930b-9605-4c9e-9847-e9278235481c/00001832.png  "Logo Title Text 1")
+![alt text](https://camo.githubusercontent.com/9007a90167110995d81eec851719e7e435dc0201/68747470733a2f2f636f6e74656e742e73637265656e636173742e636f6d2f75736572732f6b6f757963656c612f666f6c646572732f4a696e672f6d656469612f63326366393964322d356138322d343064382d613138662d3566386466616161666161362f30303030303539362e706e67  "Logo Title Text 1")
+
 
 ### RTL support
 
 Uncomment [this](https://github.com/kossa/laradminator/blob/master/resources/views/admin/default.blade.php#L15) line and you have the RTL version
 
-![enter image description here](https://content.screencast.com/users/kouycela/folders/Jing/media/a95fbdc6-6131-4fb2-8fe4-f16fff2c34b8/00001805.png)
+![alt text](https://content.screencast.com/users/kouycela/folders/Jing/media/0d4f930b-9605-4c9e-9847-e9278235481c/00001832.png  "Logo Title Text 1")
  
 
 #### How can I use custom CSS and JS ?
