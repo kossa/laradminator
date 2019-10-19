@@ -53,7 +53,7 @@ Password: 123456
 
 #### Laravel (php):
 
-*  [Laravel Framework](https://github.com/laravel/laravel/) (6.0.*)
+*  [Laravel Framework](https://github.com/laravel/laravel/) (6.x)
 *  [Forms & HTML](https://github.com/laravelcollective/html) : for forms
 *  [Laravel Debugbar](https://github.com/barryvdh/laravel-debugbar) : for debugging
 *  [Intervention Image](https://github.com/intervention/image) : image handling and manipulation
