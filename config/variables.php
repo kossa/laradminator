@@ -32,4 +32,5 @@ return [
     */
     'APP_ADMIN' => 'admin',
     'APP_TOKEN' => env('APP_TOKEN', 'admin123456'),
+    'WITH_FAKER' => env('WITH_FAKER', false),
 ];
