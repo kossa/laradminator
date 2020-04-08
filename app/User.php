@@ -74,7 +74,7 @@ class User extends Authenticatable
     public function getAvatarAttribute($value)
     {
         if (!$value) {
-            return 'http://placehold.it/160x160';
+            return 'https://placehold.it/160x160';
         }
     
         return config('variables.avatar.public').$value;
