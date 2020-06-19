@@ -22,7 +22,7 @@
         "easy-pie-chart": "^2.1.7",
         "file-loader": "^1.1.11",
         "fullcalendar": "^3.10.1",
-        "jquery": "3.4.1",
+        "jquery": "3.5.0",
         "jquery-sparkline": "^2.4.0",
         "jvectormap": "^2.0.4",
         "laravel-mix": "^5.0.1",
