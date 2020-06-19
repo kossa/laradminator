@@ -20,7 +20,12 @@ mix.webpackConfig(webpack => {
                 'window.jQuery': 'jquery',
                 Popper: ['popper.js', 'default'],
             })
-        ]
+        ],
+        resolve: {
+            alias: {
+                'jquery': path.join(__dirname, 'node_modules/jquery/dist/jquery'),
+            }
+        }
     };
 });
 
