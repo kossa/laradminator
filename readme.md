@@ -8,6 +8,7 @@
 **_[Laravel](https://laravel.com/) PHP Framework with [Adminator](https://github.com/puikinsh/Adminator-admin-dashboard)_** as admin dash
 
 ## Setup:
+
 All you need is to run these commands:
 
 ```bash
