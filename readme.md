@@ -81,7 +81,7 @@ Password: 123456
 
 ### RTL support
 
-Uncomment [this](https://github.com/kossa/laradminator/blob/master/resources/views/admin/default.blade.php#L15) line and you have the RTL version
+Uncomment [this](https://github.com/kossa/laradminator/blob/master/resources/views/layouts/partials/head.blade.php#L12) line and you have the RTL version
 
 ![alt text](https://content.screencast.com/users/kouycela/folders/Jing/media/0d4f930b-9605-4c9e-9847-e9278235481c/00001832.png  "Logo Title Text 1")
  
