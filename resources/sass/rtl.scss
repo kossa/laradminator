@@ -112,3 +112,14 @@ button.close {
 .select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
     float: left !important;
 }
+
+
+@media screen and (max-width: 1439px) and (min-width: 992px){
+    .page-container{
+        padding-left: 0px;
+        padding-right: 70px;
+    }
+    .is-collapsed .page-container {
+        padding-right: 280px;
+    }
+}
