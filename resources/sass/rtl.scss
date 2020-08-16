@@ -1,5 +1,8 @@
 // @import "~bootstrap-v4-rtl/scss/bootstrap-rtl.scss";
 @import url('https://fonts.googleapis.com/css?family=Cairo&display=swap');
+/**
+Global properties
+*/
 html,
 body {
     direction: rtl;
@@ -111,6 +114,23 @@ button.close {
     float: left !important;
 }
 
+.list-group{
+    .list-group-item{
+        .checkbox{
+            label{
+                padding-right: 20px;
+                &:before, &:after{
+                    left: unset;
+                    right: 0;
+                }
+            }
+        }       
+    }
+}
+
+/**
+Properties relative to desktop screen
+*/
 @media screen and (max-width: 1439px) and (min-width: 992px) {
     .page-container {
         padding-left: 0px;
