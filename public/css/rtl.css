@@ -118,5 +118,10 @@ button.close {
   .is-collapsed .page-container {
     padding-right: 280px;
   }
+
+  .header .header-container .nav-right .dropdown-menu > li > a {
+    display: flex !important;
+    align-items: center;
+  }
 }
 
