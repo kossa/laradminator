@@ -33,14 +33,21 @@
             <!-- ### $App Screen Footer ### -->
             <footer class="bdT ta-c p-30 lh-0 fsz-sm c-grey-600">
                 <span>Copyright © {{ date('Y') }} Designed by
-                    <a href="https://colorlib.com" target='_blank' title="Colorlib">Colorlib</a>. All rights reserved.</span>
+                    <a href="https://colorlib.com" target='_blank' title="Colorlib">Colorlib</a>. All rights
+                    reserved.</span>
             </footer>
         </div>
     </div>
 
     <script src="{{ mix('/js/app.js') }}"></script>
 
+    <!-- Global js content -->
+
+    <!-- End of global js content-->
+
+    <!-- Specific js content placeholder -->
     @yield('js')
+    <!-- End of specific js content placeholder -->
 
 </body>
 
