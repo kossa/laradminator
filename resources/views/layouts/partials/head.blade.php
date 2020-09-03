@@ -10,7 +10,12 @@
     <!-- Styles -->
     <link href="{{ mix('/css/app.css') }}" rel="stylesheet">
     {{-- <link href="{{ mix('/css/rtl.css') }}" rel="stylesheet"> --}}
+    
+    <!-- Global css content -->
 
+    <!-- End of global css content-->
+
+    <!-- Specific css content placeholder -->
     @yield('css')
-
+    <!-- End of specific css content placeholder --> 
 </head>
