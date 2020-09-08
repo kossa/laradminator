@@ -16,6 +16,6 @@
     <!-- End of global css content-->
 
     <!-- Specific css content placeholder -->
-    @yield('css')
+    @stack('css')
     <!-- End of specific css content placeholder --> 
 </head>

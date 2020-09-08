@@ -25,7 +25,7 @@
   <!-- End of global js content-->
 
   <!-- Specific js content placeholder -->
-  @yield('js')
+  @stack('js')
   <!-- End of specific js content placeholder -->
 
 </body>
