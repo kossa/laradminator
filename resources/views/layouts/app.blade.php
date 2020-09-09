@@ -20,6 +20,14 @@
     </div>
   </div>
 
+  <!-- Global js content -->
+
+  <!-- End of global js content-->
+
+  <!-- Specific js content placeholder -->
+  @stack('js')
+  <!-- End of specific js content placeholder -->
+
 </body>
 
 </html>
