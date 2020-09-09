@@ -13,11 +13,13 @@ class users extends Seeder
     public function run()
     {
         $factory = User::factory();
-        $factory->create([
-            'name'     => 'hadji kouceyla',
-            'email'    => 'test@example.com',
-            'role'     => 10,
-        ]);
+        if(!User::where('email', 'test@example.com')){
+            $factory->create([
+                'name'     => 'hadji kouceyla',
+                'email'    => 'test@example.com',
+                'role'     => 10,
+            ]);
+        }
         $factory->count(10)->create();
     }
 }
