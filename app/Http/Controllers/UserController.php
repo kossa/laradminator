@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use App\User;
+use App\Models\User;
 
 class UserController extends Controller
 {
@@ -97,7 +97,6 @@ class UserController extends Controller
     {
         User::destroy($id);
 
-        return back()->withSuccess(trans('app.success_destroy')); 
+        return back()->withSuccess(trans('app.success_destroy'));
     }
 }
-
