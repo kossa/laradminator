@@ -34,6 +34,6 @@ mix.js('resources/js/app.js', 'public/js')
     .sass('resources/sass/app.scss', 'public/css')
     .sass('resources/sass/rtl.scss', 'public/css')
     .copyDirectory('resources/static/images','public/images')
-    .browserSync('https://laradminator.test')
+    .browserSync(process.env.APP_URL)
     .version()
     .sourceMaps();
