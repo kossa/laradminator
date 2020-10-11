@@ -3,18 +3,18 @@
 return [
     
     'boolean' => [
-        '0' => 'No',
-        '1' => 'Yes',
+        0 => 'No',
+        1 => 'Yes',
     ],
 
     'role' => [
-        '0' => 'User',
-        '10' => 'Admin',
+        0 => 'User',
+        10 => 'Admin',
     ],
     
     'status' => [
-        '1' => 'Active',
-        '0' => 'Inactive',
+        1 => 'Active',
+        0 => 'Inactive',
     ],
 
     'avatar' => [
