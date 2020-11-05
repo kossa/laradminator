@@ -18,11 +18,9 @@ class {{ class }} extends Model
     */
     public static function rules($update = false, $id=null)
     {
-        $common = [
+        return [
             'name' => 'required',
         ];
-
-        return $common;
     }
 
     /*
