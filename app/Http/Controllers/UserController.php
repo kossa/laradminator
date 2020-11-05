@@ -39,8 +39,11 @@ class UserController extends Controller
     public function store(Request $request)
     {
         $this->validate($request, User::rules());
-        
-        User::create($request->all());
+
+        $data = $request->all();
+        $data['password'] = bcrypt(request('password'));
+
+        User::create($data);
 
         return back()->withSuccess(trans('app.success_store'));
     }
@@ -82,7 +85,13 @@ class UserController extends Controller
 
         $item = User::findOrFail($id);
 
-        $item->update($request->all());
+        $data = $request->all();
+
+        if (request()->has('password')) {
+            $data['password'] = bcrypt(request('password'));
+        }
+
+        $item->update($data);
 
         return redirect()->route(ADMIN . '.users.index')->withSuccess(trans('app.success_update'));
     }

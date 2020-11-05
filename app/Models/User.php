@@ -67,38 +67,16 @@ class User extends Authenticatable
     | Attributes
     |------------------------------------------------------------------------------------
     */
-    public function setPasswordAttribute($value='')
-    {
-        $this->attributes['password'] = bcrypt($value);
-    }
-    
     public function getAvatarAttribute($value)
     {
         if (!$value) {
             return 'https://placehold.it/160x160';
         }
-    
+
         return config('variables.avatar.public').$value;
     }
     public function setAvatarAttribute($photo)
     {
         $this->attributes['avatar'] = move_file($photo, 'avatar');
-    }
-
-    /*
-    |------------------------------------------------------------------------------------
-    | Boot
-    |------------------------------------------------------------------------------------
-    */
-    public static function boot()
-    {
-        parent::boot();
-        static::updating(function ($user) {
-            $original = $user->getOriginal();
-            
-            if (\Hash::check('', $user->password)) {
-                $user->attributes['password'] = $original['password'];
-            }
-        });
     }
 }
