@@ -6,7 +6,7 @@
 
 @section('content')
 	{!! Form::open([
-			'action' => ['UserController@store'],
+			'route' => [ ADMIN . '.users.store' ],
 			'files' => true
 		])
 	!!}

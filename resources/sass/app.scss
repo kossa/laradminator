@@ -71,6 +71,11 @@ img {
     min-width: 95px;
 }
 
+.select2-container{
+    min-width: 100%;
+    max-width: 100%;
+}
+
 .select2-container--default .select2-selection--single,
 .select2-container--default .select2-search--dropdown .select2-search__field,
 .select2-dropdown {
