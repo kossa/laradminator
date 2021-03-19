@@ -1,6 +1,10 @@
 {
-    "/js/app.js": "/js/app.js?id=77a9b21d6c8b582d1441",
-    "/css/app.css": "/css/app.css?id=0cc5df8692ed22c64e05",
-    "/css/rtl.css": "/css/rtl.css?id=2c753ae1f68f9288ac84",
-    "/js/app.js.map": "/js/app.js.map?id=f5f1b9d7544a0a5a36b4"
+    "/js/app.js": "/js/app.js?id=ee8a23ee31d01b86c3a5",
+    "/css/rtl.css": "/css/rtl.css?id=197fdd878911f5683ebd",
+    "/css/app.css": "/css/app.css?id=780c3fe131b0e2b05ee0",
+    "/images/404.png": "/images/404.png?id=f2cfef842a1408778bf9",
+    "/images/500.png": "/images/500.png?id=01db458947cd85effd64",
+    "/images/bg.jpg": "/images/bg.jpg?id=6601cc6a6dd659d79928",
+    "/images/logo.png": "/images/logo.png?id=33b6e65882648d75ac19",
+    "/images/logo.svg": "/images/logo.svg?id=346d84277e5cc3ff315a"
 }

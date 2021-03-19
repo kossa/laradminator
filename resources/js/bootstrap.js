@@ -68,7 +68,7 @@ import './chat';
 import './datatable';
 import './datetimepicker';
 import './email';
-import './fullcalendar';
+// import './fullcalendar';
 import './googleMaps';
 import './utils';
 

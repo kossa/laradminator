@@ -20,20 +20,16 @@ mix.webpackConfig(webpack => {
                 'window.jQuery': 'jquery',
                 Popper: ['popper.js', 'default'],
             })
-        ],
-        resolve: {
-            alias: {
-                'jquery': path.join(__dirname, 'node_modules/jquery/dist/jquery'),
-            }
-        }
+        ]
     };
 });
 
 
 mix.js('resources/js/app.js', 'public/js')
+    .vue()
     .sass('resources/sass/app.scss', 'public/css')
     .sass('resources/sass/rtl.scss', 'public/css')
-    .copyDirectory('resources/static/images','public/images')
+    .copyDirectory('resources/sass/static/images','public/images')
     .browserSync(process.env.APP_URL)
     .version()
     .sourceMaps();

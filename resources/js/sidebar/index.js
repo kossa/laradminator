@@ -47,7 +47,7 @@ export default (function () {
 
   sidebarLinks
     .each((index, el) => {
-      // $(el).removeClass('active');
+      $(el).removeClass('active');
     })
     .filter(function () {
       const href = $(this).attr('href');

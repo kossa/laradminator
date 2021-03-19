@@ -23,7 +23,7 @@
                         <th>Actions</th>
                     </tr>
                 </thead>
-                
+
                 <tfoot>
                     <tr>
                         <th>Name</th>
@@ -31,7 +31,7 @@
                         <th>Actions</th>
                     </tr>
                 </tfoot>
-                
+
                 <tbody>
                     @foreach ($items as $item)
                         <tr>
@@ -44,13 +44,13 @@
                                     <li class="list-inline-item">
                                         {!! Form::open([
                                             'class'=>'delete',
-                                            'url'  => route(ADMIN . '.users.destroy', $item->id), 
+                                            'url'  => route(ADMIN . '.users.destroy', $item->id),
                                             'method' => 'DELETE',
-                                            ]) 
+                                            ])
                                         !!}
-    
+
                                             <button class="btn btn-danger btn-sm" title="{{ trans('app.delete_title') }}"><i class="ti-trash"></i></button>
-                                            
+
                                         {!! Form::close() !!}
                                     </li>
                                 </ul>
@@ -58,7 +58,7 @@
                         </tr>
                     @endforeach
                 </tbody>
-            
+
             </table>
         </div>
     </div>
