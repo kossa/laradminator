@@ -8,12 +8,10 @@ use Tests\TestCase;
 
 class {{ class }} extends TestCase
 {
-    /**
-     * A basic feature test example.
-     *
-     * @return void
-     */
-    public function testExample()
+    use WithFaker, RefreshDatabase;
+
+    /** @test */
+    public function a_user_()
     {
         $response = $this->get('/');
 
