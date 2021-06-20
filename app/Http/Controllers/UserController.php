@@ -85,9 +85,9 @@ class UserController extends Controller
 
         $item = User::findOrFail($id);
 
-        $data = $request->all();
+        $data = $request->except('password');
 
-        if (request()->has('password') && request('password')) {
+        if (request('password')) {
             $data['password'] = bcrypt(request('password'));
         }
 
