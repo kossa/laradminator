@@ -64,7 +64,6 @@ Password: 123456
 * All ADMINATOR plugins [here](https://github.com/puikinsh/Adminator-admin-dashboard#built-with)
 *  [sweetalert2](https://github.com/limonte/sweetalert2)
 *  [Axios](https://github.com/mzabriskie/axios)
-*  [Axios](https://github.com/mzabriskie/axios)
 *  [Select2](https://github.com/select2/select2)
 
 ## Page size optimization:
