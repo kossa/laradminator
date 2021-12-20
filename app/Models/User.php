@@ -72,7 +72,7 @@ class User extends Authenticatable
     public function getAvatarAttribute($value)
     {
         if (!$value) {
-            return 'https://placehold.it/160x160';
+            return '/images/avatar.png';
         }
 
         return config('variables.avatar.public').$value;
