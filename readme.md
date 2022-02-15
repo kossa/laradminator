@@ -1,7 +1,7 @@
 
-  
 
-  
+
+
 
 # Laradminator
 
@@ -54,7 +54,7 @@ Password: 123456
 
 #### Laravel (php):
 
-*  [Laravel Framework](https://github.com/laravel/laravel/) (8.x)
+*  [Laravel Framework](https://github.com/laravel/laravel/) (9.x)
 *  [Forms & HTML](https://github.com/laravelcollective/html) : for forms
 *  [Laravel Debugbar](https://github.com/barryvdh/laravel-debugbar) : for debugging
 *  [Intervention Image](https://github.com/intervention/image) : image handling and manipulation
@@ -84,7 +84,7 @@ Password: 123456
 Uncomment [this](https://github.com/kossa/laradminator/blob/master/resources/views/layouts/partials/head.blade.php#L12) line and you have the RTL version
 
 ![alt text](https://content.screencast.com/users/kouycela/folders/Jing/media/0d4f930b-9605-4c9e-9847-e9278235481c/00001832.png  "Logo Title Text 1")
- 
+
 
 #### How can I use custom CSS and JS ?
 
