@@ -72,7 +72,7 @@ class User extends Authenticatable
     public function getAvatarAttribute($value)
     {
         if (!$value) {
-            return '/images/avatar.png';
+            return 'https://www.gravatar.com/avatar/' . md5($this->email) . '?s=200&d=mm';
         }
 
         return config('variables.avatar.public').$value;
