@@ -18,6 +18,10 @@
         </include>
         <exclude>
             <directory suffix=".php">./app/Http/Controllers/Auth</directory>
+            <file>./app/Http/Controllers/HomeController.php</file>
+            <file>./app/Http/Middleware/Authenticate.php</file>
+            <file>./app/Providers/BroadcastServiceProvider.php</file>
+            <file>./app/Http/Middleware/TrustHosts.php</file>
         </exclude>
     </coverage>
     <php>
