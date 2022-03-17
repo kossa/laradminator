@@ -14,6 +14,10 @@ test('Admin can access to dashboard page', function () {
     $this->get(ADMIN . '/')->assertOk();
 });
 
+test('Guest cannot access to dashboard page', function () {
+    $this->get(ADMIN . '/')->assertRedirect('/login');
+});
+
 test('Non admin cannot access to dashboard page', function () {
     $user = User::factory()->create();
     actingAs($user);
