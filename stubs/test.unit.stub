@@ -6,8 +6,12 @@ use PHPUnit\Framework\TestCase;
 
 class {{ class }} extends TestCase
 {
-    /** @test */
-    public function example()
+    /**
+     * A basic unit test example.
+     *
+     * @return void
+     */
+    public function test_example()
     {
         $this->assertTrue(true);
     }
