@@ -31,7 +31,7 @@
         "load-google-maps-api": "^2.0.2",
         "lodash": "^4.17.21",
         "masonry-layout": "^4.2.2",
-        "moment": "^2.29.1",
+        "moment": "^2.29.2",
         "perfect-scrollbar": "^1.5.2",
         "popper.js": "^1.16.1",
         "postcss": "^8.3.6",
