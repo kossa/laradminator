@@ -8,8 +8,8 @@
     <title>{{ config('app.name', 'Laravel') }}</title>
 
     <!-- Styles -->
-    <link href="{{ mix('/css/app.css') }}" rel="stylesheet">
-    {{-- <link href="{{ mix('/css/rtl.css') }}" rel="stylesheet"> --}}
+    @vite('resources/css/app.css')
+    {{-- @vite('resources/css/rtl.css') --}}
 
     <!-- Global css content -->
 
