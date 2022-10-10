@@ -31,7 +31,7 @@ php artisan migrate:fresh --seed # Run migration and seed users and categories f
 
 yarn install # or npm i to Install node dependencies(>= node 9.x)
 
-npm run production # To compile assets for prod
+npm run build # To compile assets for prod
 
 ```
 
@@ -93,9 +93,9 @@ The current architecture of assets are inspired from [adminator](https://github.
 
 If you want to update the CSS, you can put them directly in [`resources/sass/app.scss`](https://github.com/kossa/laradminator/blob/master/resources/sass/app.scss#L72) or create new file under `resources/sass` and import it in [resources/sass/app.scss](https://github.com/kossa/laradminator/blob/master/resources/sass/app.scss#L5)
 
-> VERY IMPORTANT: Any change you make on resources you have to run : `npm run dev` or `npm run prod`.
+> VERY IMPORTANT: Any change you make on resources you have to run : `npm run dev` or `npm run build`.
 
-> If you have a lot of changes it's much better to run: `npm run watch` to watch any changes on your files, take a look on [browersync](https://laravel.com/docs/master/mix#browsersync-reloading)
+> If you have a lot of changes it's much better to run: `npm run dev` to watch any changes on your files, take a look on [browersync](https://laravel.com/docs/master/mix#browsersync-reloading)
 
 #### Create new CRUD
 
