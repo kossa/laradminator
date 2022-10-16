@@ -1,13 +1,8 @@
 {
     "private": true,
     "scripts": {
-        "dev": "npm run development",
-        "development": "mix",
-        "watch": "mix watch",
-        "watch-poll": "mix watch -- --watch-options-poll=1000",
-        "hot": "mix watch --hot",
-        "prod": "npm run production",
-        "production": "mix --production"
+        "dev": "vite",
+        "build": "vite build"
     },
     "devDependencies": {
         "axios": "^0.21.4",
@@ -27,7 +22,6 @@
         "jquery-datetimepicker": "^2.5.21",
         "jquery-sparkline": "^2.4.0",
         "jvectormap": "^2.0.4",
-        "laravel-mix": "^6.0.31",
         "load-google-maps-api": "^2.0.2",
         "lodash": "^4.17.21",
         "masonry-layout": "^4.2.2",
@@ -41,8 +35,11 @@
         "select2": "^4.0.11",
         "skycons": "^1.0.0",
         "sweetalert2": "^11.1.5",
-        "vue": "^2.6.14",
+        "vue": "^2.7.0",
         "vue-loader": "^15.9.8",
-        "vue-template-compiler": "^2.6.14"
+        "vue-template-compiler": "^2.6.14",
+        "vite": "^3.0.2",
+        "laravel-vite-plugin": "^0.6.0",
+        "@vitejs/plugin-vue2": "^1.1.2"
     }
 }
