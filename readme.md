@@ -37,7 +37,7 @@ npm run production # To compile assets for prod
 
 ## Demo:
 
-- Online demo: Can be found at [laradminator.bel4.com/admin](http://laradminator.bel4.com/admin)
+- Online demo: Can be found at [laradminator.kossa.one/admin](http://laradminator.kossa.one/admin)
 
 - Local demo: `php artisan serve # Check installation (optional)`
 Open browser at [localhost:8000/admin](http://localhost:8000/admin)
